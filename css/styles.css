@@ -5,7 +5,6 @@ body {
     margin-left: 10%;
     margin-right: 10%;
 }
-
 .letrafont {
     font-family: "Comfortaa", sans-serif;
     font-optical-sizing: auto;
@@ -26,13 +25,11 @@ body {
     width: 50%;
     float: left;
 }
-
 .textos1 {
     font-size: 40px;
     padding-left: 10%;
 }
-
-.row {
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -41,23 +38,19 @@ body {
     height: 90%;
     width: 90%;
 }
-
 .titulos1 {
     padding-left: 10%;
-    font-size: 60px;
+    font-size: 50px;
 }
-
 .col1 {
     width: 100%;
     float: left;
     margin-top: -4px;
 }
-
 .col4 {
     width: 25%;
     float: left;
 }
-
 .imgs2 {
     height: 70%;
     width: 70%;
@@ -65,27 +58,49 @@ body {
     margin: auto;
     padding-bottom: 10%;
 }
-
 .fondoverde {
     background-color: rgb(127, 255, 176);
 }
-
 .textalign {
         text-align: center;
-
 }
 .col3 {
     padding-top: 05%;
 }
-
 .imgs3 {
     height: 100%;
     width: 100%;
     padding-top: 20%;
 }
+.imgs4 {
+    height: 100%;
+    width: 100%;
+}
 .textos3{
-    font-size: 45px;
+    font-size: 40px;
 }
 .titulos2{
-    font-size: 65px;
+    font-size: 60px;
+}
+.titulos3 {
+    background-color: cornflowerblue;
+}
+.titulos4 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.textos4 {
+        color: white;
+        padding-left: 10%;
+        font-size: 15px;
+        margin: 5%;
+}
+.fondo2 {
+    background-color: black;
+}
+.textos5 {
+    color: white;
+    font-size: 15px;
+    margin: 10%;
 }
