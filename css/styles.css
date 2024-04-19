@@ -51,7 +51,7 @@ body {
     width: 25%;
     float: left;
 }
-.imgs2 {
+.imgs2 {    
     height: 70%;
     width: 70%;
     display: block;
@@ -59,7 +59,7 @@ body {
     padding-bottom: 10%;
 }
 .fondoverde {
-    background-color: rgb(127, 255, 176);
+    background-color: rgb(82, 255, 148);
 }
 .textalign {
         text-align: center;
@@ -83,17 +83,16 @@ body {
     font-size: 60px;
 }
 .titulos3 {
-    background-color: cornflowerblue;
+    background-color: rgb(58, 160, 255);
 }
 .titulos4 {
     font-size: 55px;
     text-align: center;
 }
-
 .textos4 {
         color: white;
         padding-left: 10%;
-        font-size: 15px;
+        font-size: 12px;
         margin: 5%;
 }
 .fondo2 {
@@ -101,6 +100,25 @@ body {
 }
 .textos5 {
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     margin: 10%;
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .col2 {
+        width: 100%;
+    }
+    .col3 {
+        width: 100%;
+    }
+    .col4 {
+        width: 50%;
+    }
+    .imgs4 {
+        margin-top: -4px;
+    }
 }
